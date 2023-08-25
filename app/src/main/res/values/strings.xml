@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Humo Booking</string>
+
+    <string name="open"> Open</string>
+    <string name="close">Close</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="test">Test</string>
+    <string name="aktiv_adabiyotlar">Aktiv adabiyotlar</string>
+    <string name="takliflar_uchun">Takliflar uchun</string>
+    <string name="ilovani_ulashish">Ilovani ulashish</string>
+    <string name="profile">Profil</string>
+    <string name="login">Login</string>
+    <string name="malumotlar">Malumotlar</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="chiqish">Chiqish</string>
+    <string name="ilovadan_chiqish">Ilovadan chiqish</string>
+    <string name="kun_va_tun_rejimi">Kun va Tun rejimi</string>
+    <string name="kun">Kun</string>
+    <string name="tun">Tun</string>
+    <string name="isim">Ismingnizni kiriting</string>
+    <string name="check_bot_or_pupil">Bot emasligingizni isbotlash uchun pastga bizning telefon raqamimizni kiriting!</string>
+    <string name="_998">+998</string>
+    <string name="telefon">Telefon raqamingizni kiriting</string>
+    <string name="tel_qi">Bizga qo\'ng\'iroq qiling !\'</string>
+    <string name="coming_soon">Tez orada!</string>
+    <string name="bu_ilova_test_rejimida">Bu ilova test rejimida</string>
+    <string name="adabiyotlar_bo_ladi">Adabiyotlar bo\'ladi</string>
+    <string name="mediyalar">Mediyalar</string>
+    <string name="adabiyotlar">Adabiyotlar</string>
+    <string name="bo_limlar">Bo\'limlar</string>
+    <string name="mediyalar_bo_ladi">Mediyalar bo\'ladi</string>
+    <string name="tilni_tanlang">Tilni tanlang</string>
+    <string name="tilni_almashtirish">Tilni almashtirish</string>
+    <string name="ada_biyotlar">Adabiyotlar</string>
+    <string name="asosiy_menu">Asosiy menu</string>
+    <string name="mediyalay">Mediyalay</string>
+    <string name="biz_haqimizda">Bizning telefon raqamimiz
+            +998 (97) 921 96 05</string>
+    <string name="mediy_alar">Mediyalar</string>
+    <string name="tizim">Tizim</string>
+    <string name="klinika">Klinika</string>
+    <string name="tilni_tanlash_txt">Ozingizga qulay bolgan tilni tanlang</string>
+    <string name="mediyalar_bo_la_di">Mediyalar bo\'ladi</string>
+    <string name="tizimlar_bo_limi">Tizimlar bo\'limi</string>
+
+    <string name="osteologiya">Osteologiya</string>
+    <string name="miologiya">Miologiya</string>
+    <string name="splanchnologia">Splanchnologia</string>
+    <string name="nevrologiya">Nevrologiya</string>
+    <string name="angioloyiga">Angioloyiga</string>
+    <string name="angiologiya">Angiologiya</string>
+    <string name="ushbu_ilova_hozir_test_rejimida_ishlamoqda">Ushbu ilova hozir test rejimida ishlamoqda;</string>
+    <string name="splanchnologiya" />
+    <string name="splanch_nologiya">Splanchnologiya</string>
+    <string name="asosiy_menyuga_o_tish">Asosiy menyuga o\'tish</string>
+    <string name="todo">TODO</string>
+
+    <string name="savol_1">Savol 1</string>
+    <string name="quyidagilardan_qaysi_biri_gliserofosfolipidlar_tarkibiga_kiradi">Quyidagilardan qaysi biri gliserofosfolipidlar tarkibiga kiradi?</string>
+    <string name="fosfotidilxolin">Fosfotidilxolin</string>
+    <string name="serebrozid">Serebrozid</string>
+    <string name="xolesterin">Xolesterin</string>
+    <string name="prostoglandin">Prostoglandin</string>
+
+    <string name="savol_2">Savol 2</string>
+    <string name="oddiy_diffuziya_yo_li_orqali_hujayra_ichiga_qaysi_moddalar_kiradi">Oddiy diffuziya yo’li orqali hujayra ichiga qaysi moddalar kiradi?</string>
+    <string name="kislorod">Kislorod</string>
+    <string name="lipid">Lipid</string>
+    <string name="uglevod">Uglevod</string>
+    <string name="oqsil">Oqsil</string>
+
+    <string name="savol_3">Savol 3</string>
+    <string name="oddiy_diffuziya_yo_li_orqali_hujayra_ichiga_qaysi_modda_o_tadi">Oddiy diffuziya yo’li orqali hujayra ichiga qaysi modda o’tadi?</string>
+    <string name="karbonat_angidrid">Karbonat angidrid</string>
+    <string name="oq_sil">Oqsil</string>
+    <string name="li_pid">Lipid</string>
+    <string name="uglevodlar">Uglevodlar</string>
+
+    <string name="savol_4">Savol 4</string>
+    <string name="hujayraning_minor_komponenti">Hujayraning minor komponenti:</string>
+    <string name="tokoferol">Tokoferol</string>
+    <string name="o_qsil">Oqsil</string>
+    <string name="ugle_vod">Uglevod</string>
+    <string name="lip_id">Lipid</string>
+
+    <string name="savol_5">Savol 5</string>
+    <string name="biomembrana_qalinligi_eng_nozik_mustahkam_qalinligi_necha_nm_ni_tashkil_qiladi">Biomembrana qalinligi eng nozik, mustahkam, qalinligi necha nm ni tashkil qiladi?</string>
+    <string name="_1_5_1_8_nm">1,5–1,8 nm</string>
+    <string name="_2_5_2_8_nm">2,5–2,8 nm</string>
+    <string name="_3_5_10_nm">3,5–10 nm</string>
+    <string name="_3_9_5_9_nm">3,9–5,9 nm</string>
+
+    <string name="savol_6">Savol 6</string>
+    <string name="biomembranalar_qanday_tuzilgan">Biomembranalar qanday tuzilgan?</string>
+    <string name="oqsillar_lipidlar_uglevodlar">Oqsillar, lipidlar, uglevodlar</string>
+    <string name="faqat_lipidlar">Faqat lipidlar</string>
+    <string name="oqsillar_va_lipidlar">Oqsillar va lipidlar</string>
+    <string name="proteinlar_lipidlar_uglevodlar_va_mustahkam_bog_langan_suv">Proteinlar, lipidlar, uglevodlar va mustahkam bog\'langan suv</string>
+
+    <string name="savol_7">Savol 7</string>
+    <string name="quyidagilardan_qaysi_biri_membrananing_qattiqligini_aniqlaydi">Quyidagilardan qaysi biri membrananing qattiqligini aniqlaydi?</string>
+    <string name="sitoplazma">Sitoplazma</string>
+    <string name="integral_oqsillar">Integral oqsillar</string>
+    <string name="xole_sterin">Xolesterin</string>
+    <string name="glikokaliks">Glikokaliks</string>
+
+    <string name="savol_8">Savol 8</string>
+    <string name="yarim_integral_oqsillar_asosan_qaysi_funksiyani_amalga_oshiradi">Yarim integral oqsillar asosan qaysi funksiyani amalga oshiradi?</string>
+    <string name="energiya">Energiya</string>
+    <string name="transport">Transport</string>
+    <string name="fermentativ">Fermentativ</string>
+    <string name="retseptorlik">Retseptorlik</string>
+
+    <string name="savol_9">Savol 9</string>
+    <string name="noto_g_ri_javobni_tanlang">Noto\'g\'ri javobni tanlang.</string>
+    <string name="hujayra_membranasi_energiya_funktsiyasini_bajaradi">Hujayra membranasi energiya funktsiyasini bajaradi</string>
+    <string name="hujayra_membranasi_to_siq_vazifasini_bajaradi">Hujayra membranasi to\'siq vazifasini bajaradi</string>
+    <string name="hujayra_membranasi_tartibga_solish_funktsiyasini_bajaradi">Hujayra membranasi tartibga solish funktsiyasini bajaradi</string>
+    <string name="hujayra_membranasi_transport_funktsiyasini_bajaradi">Hujayra membranasi transport funktsiyasini bajaradi</string>
+
+    <string name="savol_10">Savol 10</string>
+    <string name="hujayra_membranasi_necha_qatlamdan_iborat">Hujayra membranasi necha qatlamdan iborat?</string>
+    <string name="ikki_qatlamdan_bisloy">Ikki qatlamdan(bisloy)</string>
+    <string name="bitta_qatlamdan_monosloy">Bitta qatlamdan(monosloy)</string>
+    <string name="to_rt_qatlamdan_tetrosloy">To\'rt qatlamdan (tetrosloy)</string>
+    <string name="oltidan_yuqori_geksosloy">Oltidan yuqori (geksosloy)</string>
+
+    <string name="savol_11">Savol_11</string>
+    <string name="lipidlar_qanday_tuzilgan">Lipidlar qanday tuzilgan?</string>
+    <string name="bosh_va_dum">Bosh va dum</string>
+    <string name="membrana_qatlami">Membrana qatlami</string>
+    <string name="asosiy_va_subfunctional">Asosiy va subfunctional</string>
+    <string name="monosaxaridlar_va_polisaxaridlar">Monosaxaridlar va polisaxaridlar</string>
+
+    <string name="savol_12">Savol 12</string>
+    <string name="membrananing_qalinligi">Membrananing qalinligi</string>
+    <string name="_7_8_nm">7-8 nm</string>
+    <string name="_0_25_nm">0,25 nm</string>
+    <string name="_1_3_nm">1-3 nm</string>
+    <string name="_5_nm">5 nm</string>
+
+    <string name="savol_13">Savol 13</string>
+    <string name="qaysi_oqsillar_biologik_membrana_tarkibiga_kiradi">Qaysi oqsillar biologik membrana tarkibiga kiradi?</string>
+    <string name="integral_yarim_integral_yuza">Integral, yarim integral, yuza</string>
+    <string name="kollagen_miozin">Kollagen, miozin</string>
+    <string name="globulin">Globulin</string>
+    <string name="pepsin">pepsin</string>
+
+    <string name="savol_14">Savol 14</string>
+    <string name="qaysi_lipidlar_membrana_tarkibiga_kiradi">Qaysi lipidlar membrana tarkibiga kiradi?</string>
+    <string name="fosfolipidlar_glikolipidlar_xolesterol">Fosfolipidlar, glikolipidlar, xolesterol</string>
+    <string name="steroidlar_glikolipidlar">Steroidlar, glikolipidlar</string>
+    <string name="xolesterin_steroidlar_proteolipidlar">Xolesterin, steroidlar, proteolipidlar</string>
+    <string name="fosfolipidlar_steroidlar">Fosfolipidlar, steroidlar</string>
+
+    <string name="sa_vol_11">Savol 11</string>
+
+    <string name="savol_15">Savol 15</string>
+    <string name="hujayra_membranasining_asosini_nima_tashkil_qiladi">Hujayra membranasining asosini nima tashkil qiladi:</string>
+    <string name="lipid_molekulalarining_ikki_qavatliligi">Lipid molekulalarining ikki qavatliligi</string>
+    <string name="oqsil_molekulalarining_ikki_qavatliligi">Oqsil molekulalarining ikki qavatliligi</string>
+    <string name="uglevod_molekulalari">Uglevod molekulalari</string>
+    <string name="oqsil_molekulalarining_uch_qatori">Oqsil molekulalarining uch qatori</string>
+
+
+    <string name="tez_orada_ishga_tushadi">Tez orada ishga tushadi</string>
+    <string name="manzilimiz">Manzilimiz</string>
+    <string name="bizning_manzillarimiz">Bizning manzillarimiz</string>
+    <string name="toliq_ma_lumot_olish_uchun_bizning_raqamlardan_biriga_qo_ng_iroq_qiling">Toliq ma\'lumot olish uchun bizning raqamlardan biriga qo\'ng\'iroq qiling</string>
+    <string name="tel_qilasiz">Bu yerdan qo\'ng\'iroq qilasiz</string>
+    <string name="asosiy_menyu">Asosiy menyu</string>
+    <string name="asiy_menyu">Asiy menyu</string>
+    <string name="mexmonxonalar">Mexmonxonalar</string>
+    <string name="avia_chiptalar">Avia chiptalar</string>
+    <string name="vizalar">Vizalar</string>
+    <string name="tayyor_takliflar">Tayyor takliflar</string>
+    <string name="eksklyusiv_takliflar">Eksklyusiv takliflar</string>
+    <string name="medialar">Medialar</string>
+    <string name="qayerga_bormoqchisiz">Qayerga bormoqchisiz?</string>
+    <string name="yoki">Yoki</string>
+    <string name="foydalanuvchi_haqida">Foydalanuvchi haqida</string>
+    <string name="info">Ko\'proq ma\'lumotlarga ega bo\'lishni istasangiz pastdagi raqamga qo\'ng\'iroq qiling</string>
+    <string name="_998_90_143_00_00">+998 90 143 00 00</string>
+    <string name="instagram">Instagram</string>
+    <string name="telegram">Telegram</string>
+    <string name="facebook">FaceBook</string>
+    <string name="youtube">YouTube</string>
+
+
+</resources>

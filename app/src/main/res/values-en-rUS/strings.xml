@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Humo Booking</string>
+
+    <string name="open"> Open</string>
+    <string name="close">Close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="test">Test</string>
+    <string name="aktiv_adabiyotlar">Active literaturer</string>
+    <string name="takliflar_uchun">For suggestions</string>
+    <string name="ilovani_ulashish">Share app</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="malumotlar">Data from</string>
+    <string name="dastur_haqida">About the program</string>
+    <string name="chiqish">Output</string>
+    <string name="ilovadan_chiqish">Exit application</string>
+    <string name="kun_va_tun_rejimi">Day and Night Mode</string>
+    <string name="kun">Day</string>
+    <string name="tun">Night</string>
+    <string name="isim">Enter your name</string>
+    <string name="check_bot_or_pupil">Enter our phone number down to prove that you are not a Bot!</string>
+    <string name="_998">+998</string>
+    <string name="telefon">Enter your phone number</string>
+    <string name="tel_qi">Call us !</string>
+    <string name="coming_soon">Soon!</string>
+    <string name="bu_ilova_test_rejimida">This app is in test mode</string>
+    <string name="adabiyotlar_bo_ladi">There will be literature</string>
+    <string name="mediyalar">Media</string>
+    <string name="adabiyotlar">Bibliography</string>
+    <string name="bo_limlar">Sections</string>
+    <string name="mediyalar_bo_ladi">There will be media</string>
+    <string name="tilni_tanlang">Choose a language</string>
+    <string name="tilni_almashtirish">Language switching</string>
+    <string name="ada_biyotlar">Bibliography</string>
+    <string name="asosiy_menu">Main menu</string>
+    <string name="mediyalay">Media</string>
+    <string name="biz_haqimizda">Our phone number
+            +998 (97) 921 96 05</string>
+    <string name="mediy_alar">Media</string>
+    <string name="tizim">System</string>
+    <string name="klinika">Clinic</string>
+    <string name="tilni_tanlash_txt">Choose a language that is comfortable for you</string>
+    <string name="mediyalar_bo_la_di">Media will be</string>
+    <string name="tizimlar_bo_limi">Systems Division</string>
+
+    <string name="osteologiya">Osteology</string>
+    <string name="miologiya">Myology</string>
+    <string name="splanchnologia">Splanchnology</string>
+    <string name="nevrologiya">Neurology</string>
+    <string name="angioloyiga">Angiology</string>
+    <string name="angiologiya">Angiology</string>
+    <string name="ushbu_ilova_hozir_test_rejimida_ishlamoqda">This app is currently running in test mode;</string>
+    <string name="splanchnologiya">Splanchnology</string>
+    <string name="splanch_nologiya">Splanchnology</string>
+    <string name="asosiy_menyuga_o_tish">Go to the main menu</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="savol_1">Question 1</string>
+    <string name="quyidagilardan_qaysi_biri_gliserofosfolipidlar_tarkibiga_kiradi">Which of the following is included in Glycerophospholipids?</string>
+    <string name="fosfotidilxolin">Phosphotidylcholine</string>
+    <string name="serebrozid">Cerebroside</string>
+    <string name="xolesterin">Cholesterol</string>
+    <string name="prostoglandin">Prostoglandin</string>
+
+    <string name="savol_2">Question 2</string>
+    <string name="oddiy_diffuziya_yo_li_orqali_hujayra_ichiga_qaysi_moddalar_kiradi">Which substances enter the cell through a simple diffusion path?</string>
+    <string name="kislorod">Oxygen</string>
+    <string name="lipid">Lipid</string>
+    <string name="uglevod">Carb</string>
+    <string name="oqsil">Protein</string>
+
+    <string name="savol_3">Question 3</string>
+    <string name="oddiy_diffuziya_yo_li_orqali_hujayra_ichiga_qaysi_modda_o_tadi">Which substance passes into the cell through a simple diffusion path?</string>
+    <string name="karbonat_angidrid">Carbon dioxide</string>
+    <string name="oq_sil">Protein</string>
+    <string name="li_pid">Lipid</string>
+    <string name="uglevodlar">Carbohydrates</string>
+
+    <string name="savol_4">Question 4</string>
+    <string name="hujayraning_minor_komponenti">Minor component of the cell:</string>
+    <string name="tokoferol">Tocopherol</string>
+    <string name="o_qsil">Protein</string>
+    <string name="ugle_vod">Carb</string>
+    <string name="lip_id">Lipid</string>
+
+    <string name="savol_5">Question 5</string>
+    <string name="biomembrana_qalinligi_eng_nozik_mustahkam_qalinligi_necha_nm_ni_tashkil_qiladi">The thickness of the biomembrane is the thinnest, robust, how many nm is the thickness?</string>
+    <string name="_1_5_1_8_nm">1,5-1,8 nm</string>
+    <string name="_2_5_2_8_nm">2,5-2,8 nm</string>
+    <string name="_3_5_10_nm">3,5-10 nm</string>
+    <string name="_3_9_5_9_nm">3,9-5,9 nm</string>
+
+    <string name="savol_6">Question 6</string>
+    <string name="biomembranalar_qanday_tuzilgan">How biomembranes are structured?</string>
+    <string name="oqsillar_lipidlar_uglevodlar">Proteins, lipids, carbohydrates</string>
+    <string name="faqat_lipidlar">Lipids only</string>
+    <string name="oqsillar_va_lipidlar">Proteins and lipids</string>
+    <string name="proteinlar_lipidlar_uglevodlar_va_mustahkam_bog_langan_suv">Proteins, lipids, carbohydrates and tightly bound water</string>
+
+    <string name="savol_7">Question 7</string>
+    <string name="quyidagilardan_qaysi_biri_membrananing_qattiqligini_aniqlaydi">Which of the following determines the rigidity of the membrane?</string>
+    <string name="sitoplazma">Cytoplasm</string>
+    <string name="integral_oqsillar">Integral proteins</string>
+    <string name="xole_sterin">Cholesterol</string>
+    <string name="glikokaliks">Glycocalyx</string>
+
+    <string name="savol_8">Question 8</string>
+    <string name="yarim_integral_oqsillar_asosan_qaysi_funksiyani_amalga_oshiradi">What function do semi-integral proteins basically perform?</string>
+    <string name="energiya">Energy</string>
+    <string name="transport">Transport</string>
+    <string name="fermentativ">Enzymatic</string>
+    <string name="retseptorlik">Receptor</string>
+
+    <string name="savol_9">Question 9</string>
+    <string name="noto_g_ri_javobni_tanlang">Choose an answer that is not correct.</string>
+    <string name="hujayra_membranasi_energiya_funktsiyasini_bajaradi">The cell membrane performs an energy function</string>
+    <string name="hujayra_membranasi_to_siq_vazifasini_bajaradi">The cell membrane acts as a barrier</string>
+    <string name="hujayra_membranasi_tartibga_solish_funktsiyasini_bajaradi">The cell membrane performs a regulatory function</string>
+    <string name="hujayra_membranasi_transport_funktsiyasini_bajaradi">The cell membrane performs a transport function</string>
+
+    <string name="savol_10">Question 10</string>
+    <string name="hujayra_membranasi_necha_qatlamdan_iborat">How many layers does the cell membrane consist of?</string>
+    <string name="ikki_qatlamdan_bisloy">From two layers (bisloy)</string>
+    <string name="bitta_qatlamdan_monosloy">From one layer (monosloy)</string>
+    <string name="to_rt_qatlamdan_tetrosloy">From four layers (tetrosloy)</string>
+    <string name="oltidan_yuqori_geksosloy">Above six (hexosloy)</string>
+
+    <string name="savol_11">Savol_11</string>
+    <string name="lipidlar_qanday_tuzilgan">Lipidlar qanday tuzilgan?</string>
+    <string name="bosh_va_dum">Bosh va dum</string>
+    <string name="membrana_qatlami">Membrana qatlami</string>
+    <string name="asosiy_va_subfunctional">Asosiy va subfunctional</string>
+    <string name="monosaxaridlar_va_polisaxaridlar">Monosaxaridlar va polisaxaridlar</string>
+
+    <string name="savol_12">Savol 12</string>
+    <string name="membrananing_qalinligi">Membrananing qalinligi</string>
+    <string name="_7_8_nm">7-8 nm</string>
+    <string name="_0_25_nm">0,25 nm</string>
+    <string name="_1_3_nm">1-3 nm</string>
+    <string name="_5_nm">5 nm</string>
+
+    <string name="savol_13">Savol 13</string>
+    <string name="qaysi_oqsillar_biologik_membrana_tarkibiga_kiradi">Qaysi oqsillar biologik membrana tarkibiga kiradi?</string>
+    <string name="integral_yarim_integral_yuza">Integral, yarim integral, yuza</string>
+    <string name="kollagen_miozin">Kollagen, miozin</string>
+    <string name="globulin">Globulin</string>
+    <string name="pepsin">pepsin</string>
+
+    <string name="savol_14">Savol 14</string>
+    <string name="qaysi_lipidlar_membrana_tarkibiga_kiradi">Qaysi lipidlar membrana tarkibiga kiradi?</string>
+    <string name="fosfolipidlar_glikolipidlar_xolesterol">Fosfolipidlar, glikolipidlar, xolesterol</string>
+    <string name="steroidlar_glikolipidlar">Steroidlar, glikolipidlar</string>
+    <string name="xolesterin_steroidlar_proteolipidlar">Xolesterin, steroidlar, proteolipidlar</string>
+    <string name="fosfolipidlar_steroidlar">Fosfolipidlar, steroidlar</string>
+
+    <string name="sa_vol_11">Savol 11</string>
+
+    <string name="savol_15">Savol 15</string>
+    <string name="hujayra_membranasining_asosini_nima_tashkil_qiladi">Hujayra membranasining asosini nima tashkil qiladi:</string>
+    <string name="lipid_molekulalarining_ikki_qavatliligi">Lipid molekulalarining ikki qavatliligi</string>
+    <string name="oqsil_molekulalarining_ikki_qavatliligi">Oqsil molekulalarining ikki qavatliligi</string>
+    <string name="uglevod_molekulalari">Uglevod molekulalari</string>
+    <string name="oqsil_molekulalarining_uch_qatori">Oqsil molekulalarining uch qatori</string>
+    <string name="tez_orada_ishga_tushadi">Tez orada ishga tushadi</string>
+    <string name="manzilimiz">Manzilimiz</string>
+    <string name="bizning_manzillarimiz">Bizning manzillarimiz</string>
+    <string name="toliq_ma_lumot_olish_uchun_bizning_raqamlardan_biriga_qo_ng_iroq_qiling">Toliq ma\'lumot olish uchun bizning raqamlardan biriga qo\'ng\'iroq qiling</string>
+    <string name="tel_qilasiz">Bu yerdan qo\'ng\'iroq qilasiz</string>
+    <string name="asosiy_menyu">Asosiy menyu</string>
+    <string name="asiy_menyu">Asiy menyu</string>
+    <string name="mexmonxonalar">Mexmonxonalar</string>
+    <string name="avia_chiptalar">Avia chiptalar</string>
+    <string name="vizalar">Vizalar</string>
+    <string name="tayyor_takliflar">Tayyor takliflar</string>
+    <string name="eksklyusiv_takliflar">Eksklyusiv takliflar</string>
+    <string name="medialar">Medialar</string>
+    <string name="qayerga_bormoqchisiz">Qayerga bormoqchisiz?</string>
+    <string name="yoki">Yoki</string>
+    <string name="foydalanuvchi_haqida">Foydalanuvchi haqida</string>
+
+
+</resources>

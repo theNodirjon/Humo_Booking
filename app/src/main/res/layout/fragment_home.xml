@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".utils.fragments.HomeFragment"
+    android:id="@+id/glavni_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <VideoView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:visibility="visible"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:background="@drawable/img_1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/todo" />-->
+
+<!--    </ScrollView>-->
+
+
+
+
+
+<!--                    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--                        android:id="@+id/bottomNavigationView"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:visibility="invisible"-->
+<!--                        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:menu="@menu/bottom_nav"/>-->
+<!--                    <FrameLayout-->
+<!--                        android:id="@+id/frame_layout"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="0dp"-->
+<!--                        android:visibility="invisible"-->
+<!--                        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent">-->
+
+<!--                    </FrameLayout>-->
+
+<!--            &lt;!&ndash;        Bo'limlar button&ndash;&gt;-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/bo_lim_lar"-->
+<!--                        android:visibility="invisible"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Bo'limlar"-->
+<!--                        android:textColor="#F5DE30"-->
+<!--                        android:textSize="30sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <TextView-->
+<!--                android:visibility="invisible"-->
+<!--                android:id="@+id/adabiyot"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Adabiyotlar"-->
+<!--                android:textSize="26sp"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:textColor="#F5DE30"-->
+<!--                android:layout_marginBottom="18dp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@id/mediya"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/mediya"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="18dp"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:text="Mediyalar"-->
+<!--                android:textColor="#F5DE30"-->
+<!--                android:textSize="26sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:visibility="invisible"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@id/adabiyot" />-->
+
+<!--            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--                android:id="@+id/changeLang"-->
+<!--                android:layout_width="100dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:clickable="true"-->
+<!--                android:visibility="invisible"-->
+<!--                app:iconTint="@color/black"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                app:icon="@drawable/ic_baseline_language_24" />-->
+
+        </FrameLayout>
+
+
+<!--     TODO: Update blank fragment layout -->
+
+
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.humo.utils.fragments.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/bolimFragment"
+        android:name="com.example.humo.utils.fragments.NarxlarFragment"
+        android:label="BolimFragment"
+        tools:layout="@layout/talim_fragment"/>
+
+    <activity
+        android:id="@+id/dasturInfo"
+        android:name="com.example.humo.DasturInfo"
+        android:label="dastur_info"
+        tools:layout="@layout/dastur_info" />
+
+    <activity
+        android:id="@+id/testUchun"
+        android:name="com.example.humo.TestUchun"
+        android:label="test_ishla"
+        tools:layout="@layout/test_ishla" />
+    <fragment
+        android:id="@+id/profilInfo"
+        android:name="com.example.humo.ProfilInfo"
+        android:label="fragment_profil_info"
+        tools:layout="@layout/fragment_profil_info" />
+    <activity
+        android:id="@+id/callFragment"
+        android:name="com.example.humo.utils.fragments.CallFragment"
+        android:label="CallFragment"
+        tools:layout="@layout/calll_item"/>
+    <activity
+        android:id="@+id/detailFragmet"
+        android:name="com.example.humo.utils.fragments.DetailsFragmet"
+        android:label="detail_fragment"
+        tools:layout="@layout/detail_fragment" />
+
+</navigation>

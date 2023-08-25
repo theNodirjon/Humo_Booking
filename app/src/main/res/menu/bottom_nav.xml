@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adabiyotlar"
+        android:icon="@drawable/baseline_location_on_24"
+        android:title="@string/bizning_manzillarimiz"/>
+     <item
+         android:id="@+id/glavni"
+         android:icon="@drawable/baseline_home_24"
+        android:title="@string/asosiy_menyu"/>
+     <item
+         android:id="@+id/medialar"
+         android:icon="@drawable/baseline_video_library_24"
+        android:title="@string/medialar"/>
+
+</menu>

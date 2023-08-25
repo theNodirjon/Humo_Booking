@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="imageCorner">
+        <item name="cornerSize">17dp</item>
+    </style>
+
+    <style name="variant_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/answer_button_back</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>

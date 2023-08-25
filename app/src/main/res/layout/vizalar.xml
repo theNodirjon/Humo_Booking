@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".utils.fragments.VizaFragment">
+        
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/visa_scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/backBtn1"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/baseline_arrow_back_24"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints"/>
+
+                        <TextView
+                            android:id="@+id/visa_info"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bu yerda VISA haqida qisqacha ma'lumotlar bo'ladi !"
+                            android:textSize="25sp"
+                            android:textColor="#181E40"
+                            android:fontFamily="@font/font"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/xitoy_img"
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            app:shapeAppearanceOverlay="@style/imageCorner"
+                            android:background="@drawable/xitoy_img"
+                            app:layout_constraintTop_toBottomOf="@id/visa_info"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/misr_img"
+                            tools:ignore="MissingConstraints,NotSibling" />
+                        <TextView
+                            android:id="@+id/xitoy_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="15dp"
+                            android:text="🇨🇳 Xitoy Visa"
+                            android:textStyle="bold"
+                            android:textColor="#181E40"
+                            app:layout_constraintStart_toStartOf="@id/xitoy_img"
+                            app:layout_constraintEnd_toEndOf="@id/xitoy_img"
+                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/misr_img"
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            app:shapeAppearanceOverlay="@style/imageCorner"
+                            android:background="@drawable/egypt_img"
+                            app:layout_constraintTop_toBottomOf="@id/visa_info"
+                            app:layout_constraintStart_toEndOf="@id/xitoy_img"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            tools:ignore="MissingConstraints,NotSibling" />
+                        <TextView
+                            android:id="@+id/mist_text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="15dp"
+                            android:text="🇾🇪 Misr Visa"
+                            android:textStyle="bold"
+                            android:textColor="#181E40"
+                            app:layout_constraintStart_toStartOf="@id/misr_img"
+                            app:layout_constraintEnd_toEndOf="@id/misr_img"
+                            app:layout_constraintTop_toBottomOf="@id/misr_img"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/misr_img2"
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
+                            app:shapeAppearanceOverlay="@style/imageCorner"
+                            android:background="@drawable/egypt_img"
+                            app:layout_constraintTop_toBottomOf="@id/mist_text1"
+
+                            app:layout_constraintEnd_toEndOf="parent"
+                            tools:ignore="MissingConstraints,NotSibling" />
+                        <TextView
+                            android:id="@+id/mist_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="15dp"
+                            android:text="🇾🇪 Misr Visa"
+                            android:textStyle="bold"
+                            android:textColor="#181E40"
+                            app:layout_constraintStart_toStartOf="@id/misr_img2"
+                            app:layout_constraintEnd_toEndOf="@id/misr_img2"
+                            app:layout_constraintTop_toBottomOf="@id/misr_img2"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/xitoy_img3"
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
+                            app:shapeAppearanceOverlay="@style/imageCorner"
+                            android:background="@drawable/xitoy_img"
+                            app:layout_constraintTop_toBottomOf="@id/xitoy_text"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/misr_img2"
+                            tools:ignore="MissingConstraints,NotSibling" />
+                        <TextView
+                            android:id="@+id/xitoy_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_marginStart="15dp"
+                            android:text="🇨🇳 Xitoy Visa"
+                            android:textStyle="bold"
+                            android:textColor="#181E40"
+                            app:layout_constraintStart_toStartOf="@id/xitoy_img"
+                            app:layout_constraintEnd_toEndOf="@id/xitoy_img"
+                            app:layout_constraintTop_toBottomOf="@id/xitoy_img3"
+                            tools:ignore="MissingConstraints" />
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <com.google.android.material.imageview.ShapeableImageView-->
+<!--                            android:id="@+id/misr"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            app:shapeAppearanceOverlay="@style/imageCorner"-->
+<!--                            android:background="@drawable/egypt_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            app:layout_constraintStart_toEndOf="@id/xitoy_img"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="🇾🇪 Misr Visa"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintStart_toStartOf="@id/misr"-->
+<!--                            app:layout_constraintEnd_toEndOf="@id/misr"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/misr"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+
+
+
+
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img2"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img3"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img4"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img5"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img6"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img7"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img8"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img9"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/xitoy_img10"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="400dp"-->
+<!--                            android:background="@drawable/xitoy_img"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/visa_info"-->
+<!--                            tools:ignore="MissingConstraints,NotSibling" />-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:layout_marginStart="15dp"-->
+<!--                            android:text="Xitoy xaqida \n~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="#181E40"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/xitoy_img"-->
+<!--                            tools:ignore="MissingConstraints" />-->
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        
+</androidx.constraintlayout.widget.ConstraintLayout>

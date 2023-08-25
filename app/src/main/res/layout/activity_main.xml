@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".utils.fragments.MainActivity"
+    android:id="@+id/home_manu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav"/>
+
+    <TextView
+        android:text="@string/ushbu_ilova_hozir_test_rejimida_ishlamoqda"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="#181E40"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrrol_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/frame_layout"
+        tools:ignore="MissingConstraints" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        app:layout_constraintTop_toBottomOf="@id/scrrol_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            
+
+
+        </ScrollView>
+            
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/glavni_home"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/img_1"-->
+<!--        android:layout_width="match_parent">-->
+<!--        -->
+<!--       -->
+
+<!--        <TextView-->
+<!--            android:id="@+id/manu_bottom"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center|start"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:textSize="40sp"-->
+<!--            android:visibility="invisible"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:background="@drawable/ic_baseline_menu_24"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/bolimlar"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#F5DE30"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:text="Bo'limlar"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/adabiyot"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Adabiyotlar"-->
+<!--            android:textSize="26sp"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:textColor="#F5DE30"-->
+<!--            android:layout_marginBottom="18dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@id/mediya"-->
+<!--            android:textStyle="bold"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/mediya"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mediyalar"-->
+<!--            android:textSize="26sp"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:textColor="#F5DE30"-->
+<!--            android:layout_marginBottom="18dp"-->
+<!--            app:layout_constraintStart_toEndOf="@id/adabiyot"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:textStyle="bold"/>-->
+
+<!--        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--            android:id="@+id/changeLang"-->
+<!--            android:layout_width="100dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:clickable="true"-->
+<!--            android:visibility="invisible"-->
+<!--            app:iconTint="@color/black"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            app:icon="@drawable/ic_baseline_language_24" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/nav_view"
+    app:headerLayout="@layout/nav_header"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:menu="@menu/nav_manu"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    tools:ignore="MissingConstraints" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
